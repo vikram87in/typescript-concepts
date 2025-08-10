@@ -102,7 +102,6 @@ console.log(
     { id: 2, text: '…', done: true }
   ])
 )
-// One way to make this file a separate and independent module is to add an export or import statement.
-// For example, you can add the following dummy export at the end of the file:
+// added a dummy export to make this file a module so that the variables are not in the global scope and don't cause conflicts
 export { }
 

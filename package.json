@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node ./src/concepts/chibicode.ts"
+    "build": "ts-node ./src/concepts/chibicode-generics.ts"
   },
   "keywords": [],
   "author": "",
