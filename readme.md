@@ -10,3 +10,5 @@ Node is not able to directly execute the typescript files. So we needed 2 steps:
 
 If we want to directly execute the typescript files, we need an npm package "ts-node": 
   * npx ts-node ./src/concepts/index.ts: to directly run ts-node from Internet (if not installed locally)
+
+We can simply update the file name in the "build" script and run command: npm run build to execute that particular file
