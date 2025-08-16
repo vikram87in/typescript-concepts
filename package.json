@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node ./src/concepts/chibicode-generics.ts"
+    "build": "ts-node ./src/index.ts",
+    "start-cli": "nodemon -w src --ext ts --exec \"ts-node ./src/index.ts\"",
+    "start": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^20.12.12"
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.10"
   }
 }
