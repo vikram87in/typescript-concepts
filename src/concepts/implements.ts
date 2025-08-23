@@ -1,3 +1,4 @@
+export { };
 
 // type Animal = {
 //   legs: number;
